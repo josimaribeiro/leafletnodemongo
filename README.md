@@ -1,23 +1,15 @@
-# 🚀 Projeto Atualizado **14/09/2025 19:42:13,41** ⚙️
+# 🚀 Projeto Atualizado ⚙️
 
+💻🧠✅✏️❌🔍📦
 
-<img width="600" src="https://rawgit.com/Leaflet/Leaflet/main/src/images/logo.svg" alt="Leaflet" />
-
-
-📅 Última atualização: **14/09/2025 19:42:13,41**
-
-Diretório atual: C:\dev\leafletnode
+📅 Última atualização: **15/09/2025 15:27:14,09**
 
 ---
 
 ## 📌 Histórico
 Este projeto é atualizado automaticamente via script.
 
-✔️ Commits enviados diretamente para o repositório remoto
+✔️ Commits enviados diretamente para o repositório remoto  
 ✔️ Registro de data e hora no README.md
 
 ---
-
-💻🧠✅✏️❌🔍📦
-"# leafletnodemongo" 
-"# leafletnodemongo" 
