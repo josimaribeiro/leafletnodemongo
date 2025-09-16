@@ -1,5 +1,7 @@
 const Coordenada = require('../models/Coordenada');
 
+
+
 module.exports = {
   // Formulário de Edição
   formEditar: async (req, res) => {
@@ -52,6 +54,19 @@ module.exports = {
       res.status(500).send('Erro ao excluir coordenada: ' + err.message);
     }
   },
+
+
+
+excluirTodas: async (req, res) => {
+    try {
+      await Coordenada.deleteMany({});
+      res.redirect('/coordenadas/listar');
+    } catch (err) {
+      res.status(500).send('Erro ao excluir todas as coordenadas: ' + err.message);
+    }
+  },
+
+
 
   // Página do mapa
   mapa: async (req, res) => {
