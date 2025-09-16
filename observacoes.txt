@@ -1,5 +1,3 @@
-
-
 Como INSERT POstGreSQL:
 
 INSERT INTO "public"."Coordenadas" ("latitude", "longitude") VALUES (-22.6481228, -43.6181419)

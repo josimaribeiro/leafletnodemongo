@@ -1,1 +1,1 @@
-ngrok http 3000
+"C:\Program Files\WindowsApps\ngrok.ngrok_3.24.0.0_x64__1g87z0zv29zzc\ngrok.exe" http 3000
