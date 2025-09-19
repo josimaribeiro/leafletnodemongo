@@ -2,6 +2,9 @@ const mongoose = require('mongoose');
 
 // URI do MongoDB
 const DB_URI = 'mongodb://localhost:27017/map_db';
+//const DB_URI = 'mongodb://admin:senha@123@localhost:27017/map_db?authSource=admin';
+
+
 
 // Conectar ao MongoDB (sem opções obsoletas)
 mongoose.connect(DB_URI)

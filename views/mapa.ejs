@@ -27,7 +27,7 @@ function resetarZoom() {
 
   </head>
   <body>
-    <h1>Mapa</h1>
+    <h1>Mapa</h1><p>Total de coordenadas cadastradas: <strong><%= coordenadas.length %></strong></p>
     <div id="map"></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -87,6 +87,7 @@ coordenadas.forEach(ponto => {
   }
 </script>
     <br>
+    
 
     <a href="/" class="btn btn-success">Voltar ao Menu</a>
         <button  onclick="resetarZoom()" class="btn btn-primary" >🔄 Resetar Zoom</button>
